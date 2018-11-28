@@ -1,3 +1,4 @@
+-----mysql command----
 net start sql;
 mysql -u -p;
 mysql -ucl -p123456;
