@@ -1,0 +1,7 @@
+net start sql;
+mysql -u -p;
+mysql -ucl -p123456;
+use test;
+create user 'cl'@'%' identified by '123456';
+create database test;
+grant all privileges on test.* to 'cl';
